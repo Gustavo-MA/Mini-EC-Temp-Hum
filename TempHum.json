@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1d5c83718c4b79c5",
+        "type": "mqtt in",
+        "z": "640b5a9f062c4f27",
+        "name": "",
+        "topic": "FCaEI/mqtt/GMA/TemHum",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "dbb2841f278f706f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "dec8eb64f2d80a78"
+            ]
+        ]
+    },
+    {
+        "id": "dbb2841f278f706f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
